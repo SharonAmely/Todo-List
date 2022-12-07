@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Titillium+Web:wght@200;400;600;900&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Sharon's ToDo</title>
+</head>
+<body>
+    <header>
+        <h1>My To-Do app</h1>
+    </header>
+    <nav>
+        <form class="task-input">
+            <input type="text" class="task-input-field" id="add-task-input" placeholder="What's your to do?" autocomplete="on" autofocus="on"/>
+            <input type="submit" class="task-input-button" id="add-task-button" value="Add task!" />
+        </form>
+    </nav>
+    <main>
+        <ul class="task-list" id="task-list"></ul>
+    </main>
+    <script defer src="api-client.js"></script>
+    <script defer src="app.js"></script>
+</body>
+</html>

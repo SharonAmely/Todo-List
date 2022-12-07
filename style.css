@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  body {
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    color: rgb(80, 80, 80);
+    height: 100vh;
+  }
+  h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    padding: 30px 30px 20px;
+    text-align: center;
+  }
+  .task-input {
+    font-family: "Titillium Web", sans-serif;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 3px 5px -2px rgb(0, 0, 0, 0.3);
+  }
+  .task-input-field {
+    color: #3f485a;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 19px;
+    box-shadow: 5px 3px 5px rgb(0, 0, 0, 0.3);
+    width: 50%;
+  }
+  .task-input-button {
+    color: #3f485a;
+    padding: 10px;
+    box-shadow: 5px 3px 5px rgb(0, 0, 0, 0.3);
+  }
+  .task-list {
+    list-style: none;
+  }
+  .task-list li {
+    font-family: "Indie Flower", cursive;
+    padding: 15px 30px;
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.3);
+  }
+  .task-list li,
+  .delete {
+    background: #a4b5d5;
+  }
+  .task-list li:nth-child(odd),
+  .task-list li:nth-child(odd) .delete {
+    background: #dfebe8;
+  }
+  .checkbox {
+    cursor: pointer;
+  }
+  .task {
+    font-size: 22px;
+    padding: 10px 30px;
+  }
+  .delete {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .scratch {
+    text-decoration: line-through;
+    color: rgb(155, 155, 155);
+  }
+   
